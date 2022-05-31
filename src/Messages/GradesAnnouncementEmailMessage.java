@@ -1,15 +1,12 @@
 package Messages;
 
-public class GradesAnnouncementEmailMessage {
-
-	public String prepareMessage(String placeHolders[]) {
-		// code to replace place holders of this type
-		return "";
+public class GradesAnnouncementEmailMessage implements IGradesAnnouncemnetMessage{
+	
+	
+	public String sendGradesAnnouncement()
+	{
+		return "note that the grades has been uploaded and sent by email";
 	}
 	
-	public boolean verifyGrades() {
-		// code to verify Grades before announcement
-		
-		return true;
-	}
 }
+
