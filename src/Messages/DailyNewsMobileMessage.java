@@ -1,9 +1,10 @@
-package Messages;
+package messages;
 
-public class DailyNewsMobileMessage {
+public class DailyNewsMobileMessage implements IDailyNewsMessage {
 	
-	public String prepareMessage(String placeHolders[]) {
-		// code to replace place holders of this type
-		return "";
+	public String sendDailyMessage()
+	{
+		return "Hello all today by SMS";
 	}
+	
 }
